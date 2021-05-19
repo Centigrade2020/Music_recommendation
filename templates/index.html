@@ -9,12 +9,22 @@
   </head>
   <body>
     <form action="/suggesstions" method="post">
-      <input type="text" name="name" placeholder="Your name" />
-      <input type="text" name="age" placeholder="Your age" />
+      <input
+        type="text"
+        name="name"
+        placeholder="Ente Name"
+        autocomplete="off"
+      />
+      <input
+        type="text"
+        name="age"
+        placeholder="Enter Age"
+        autocomplete="off"
+      />
       <input type="radio" name="gender" value="1" placeholder="male" />
-      <label>smale</label>
+      <label>Male</label>
       <input type="radio" name="gender" value="0" placeholder="Female" />
-      <label>female</label>
+      <label>Female</label>
       <button type="submit">Submit</button>
     </form>
   </body>
