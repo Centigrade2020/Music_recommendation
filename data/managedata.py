@@ -23,16 +23,18 @@ with open("rawdata.csv", 'r') as f:
             int(i[1])
         except ValueError:
             data_list.remove(i)
-
-        if i[2] == "male":
-            i[2] = "0"
-        elif i[2] == "female":
-            i[2] = "1"
-        elif i[2] == 'trans':
-            i[2] = "2"
     
     for i in data_list:
         del i[0]
+
+        if i[1] == "male":
+            i[1] = "1"
+        elif i[1] == "female":
+            i[1] = "0"
+        elif i[1] == "trans":
+            i[1] = "3"
+    
+    
 
 
 with open(fn, 'w') as f:
