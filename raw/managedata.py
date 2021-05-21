@@ -3,7 +3,7 @@ output_format = 'csv'
 
 fn = f"{output_filename}.{output_format}"
 
-with open("rawdata.txt", 'r') as f:
+with open("rawdata.csv", 'r') as f:
     content = f.read()
     data_list = []
     lines = content.split('\n')
