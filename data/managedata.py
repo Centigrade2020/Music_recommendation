@@ -1,5 +1,5 @@
 output_filename = "data"
-output_format = 'csv'
+output_format = "csv"
 
 fn = f"{output_filename}.{output_format}"
 
