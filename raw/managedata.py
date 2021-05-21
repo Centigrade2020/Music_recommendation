@@ -1,3 +1,8 @@
+output_filename = "data"
+output_format = 'csv'
+
+fn = f"{output_filename}.{output_format}"
+
 with open("rawdata.txt", 'r') as f:
     content = f.read()
     data_list = []
@@ -19,7 +24,8 @@ with open("rawdata.txt", 'r') as f:
             data_list.remove(i)
 
 
-with open("data.csv", 'w') as f:
+with open(fn, 'w') as f:
+    f.write("name,age,gender,genre\n")
     li = []
     for i in data_list:
         string = ""
@@ -30,4 +36,6 @@ with open("data.csv", 'w') as f:
     li = set(li)
     for i in li:
         f.write(i+'\n')
+
+print("Task completed successfully")
         
