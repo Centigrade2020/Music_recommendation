@@ -1,6 +1,3 @@
-import time
-from tqdm import tqdm
-
 output_filename = "data"
 output_format = "csv"
 
@@ -15,7 +12,6 @@ with open("rawdata.csv", 'r') as f:
         data_list.append(i.split(','))
 
     for i in data_list:
-        print(i)
         if i[4] != '':
             if i[3] != '':
                 i[3] += "|"+i[4]
@@ -52,7 +48,5 @@ with open(fn, 'w') as f:
     for i in li:
         f.write(i+'\n')
 
-for _ in tqdm(range(100), desc="Loading ...", ascii=False, ncols=75):
-    time.sleep(0.01)
 
 print("Task completed successfully")
