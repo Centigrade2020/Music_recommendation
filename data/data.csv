@@ -1,39 +1,40 @@
 age,gender,genre
-69,3,Acoustic,Barbie pop
-37,0,Classical
-20,1,Hiphop
-30,0,Dance
-18,1,Jazz
-17,1,Hiphop
-19,1,Foreskin tunes
-18,0,Dance
-18,1,Acoustic|K-Pop
-16,0,Hiphop
-18,1,Hiphop|Pop rap
-17,1,Classical
-69,1,Dance
-13,1,Dance
-12,1,Hiphop
-41,0,Classical
-19,1,Melody 
-15,0,Dance
-17,1,Pop
-18,1,Hiphop
-19,1,Acoustic
-19,1,Classical
-42,1,Romance
-18,1,Dance
-19,1,Jazz
-50,1,Hiphop
+17,0,Hiphop
+19,0,Classical
 18,1,Acoustic
-52,0,Acoustic
-47,0,Classical
-18,0,Hiphop
-18,0,Jazz
-18,0,Soft Rock
-52,1,Classical
-19,1,Dance
+15,1,Dance
+37,1,Classical
+19,0,Melody 
+19,0,Hiphop
+18,0,Acoustic|K-Pop
+19,0,Dance
+69,0,Dance
+13,0,Melody
+69,2,Acoustic|Barbie Pop
+18,1,Dance
+19,0,Acoustic
 18,0,Acoustic
-19,1,Hiphop|Edm
-20,1,Dance
-19,1,Hiphop
+30,1,Dance
+18,0,Dance
+12,0,Hiphop
+19,0,Jazz
+18,0,Hiphop
+52,1,Acoustic
+18,0,Jazz
+47,1,Classical
+18,1,Jazz
+18,1,Hiphop
+52,0,Classical
+19,0,Foreskin tunes
+17,0,Pop
+41,1,Classical
+20,0,Dance
+16,1,Hiphop
+18,0,Hiphop|Pop rap
+18,1,Soft Rock
+17,0,Classical
+20,0,Hiphop
+19,0,Hiphop|Edm
+13,0,Dance
+50,0,Hiphop
+42,0,Romance

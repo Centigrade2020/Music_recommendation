@@ -12,7 +12,8 @@ with open("rawdata.csv", 'r') as f:
         data_list.append(i.split(','))
 
     for i in data_list:
-        if i[4].strip() != '':
+        print(i)
+        if i[4]!= '':
             if i[3] != '':
                 i[3] += "|"+i[4]
             else:
@@ -28,11 +29,11 @@ with open("rawdata.csv", 'r') as f:
         del i[0]
 
         if i[1] == "male":
-            i[1] = "1"
-        elif i[1] == "female":
             i[1] = "0"
+        elif i[1] == "female":
+            i[1] = "1"
         elif i[1] == "trans":
-            i[1] = "3"
+            i[1] = "2"
     
     
 
