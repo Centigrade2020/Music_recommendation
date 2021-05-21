@@ -1,51 +1,39 @@
-name,age,gender,genre
-Sarath Krishna ,19,male,Dance
-A Rosario,18,male,Acoustic|K-Pop
-test,12,male,Hiphop
-Mohammed suhail,18,male,Hiphop
-Arvind Babu,20,male,Dance
-Aaish,16,female,Hiphop
-Lakshman Naraharisetti,17,male,Classical
-Akash,19,male,Jazz
-Sreelakshmi,18,female,Acoustic
-C. Dharun ,19,male,Melody 
-Fake friend,69,male,Dance
-Centiberoo,19,male,Acoustic
-SN,18,female,Dance
-dharun,20,male,Hiphop
-Ronick,18,male,Hiphop
-S.Lakshmi Sanjana,15,female,Dance
-S.mala,47,female,Classical
-Harsha,18,female,Jazz
-Charan ,18,male,Hiphop
-Hrithik69,17,male,Pop
-Ramya,18,female,Soft Rock
-Saifuddin S,18,male,Jazz
-Ligma bawls ,69,trans,Acoustic,Barbie pop
-Uranus,42,male,Romance
-Amrutha,52,female,Acoustic
-Mike Rotch,50,male,Hiphop
-Maya Joby,41,female,Classical
-Mak,18,male,Acoustic
-Shivam,18,male,Jazz
-Swethasree,18,female,Hiphop
-Sathya,52,male,Classical
-Amin yapussi,19,male,Foreskin tunes
-Guru Sanjay ,17,male,Hiphop
-Athiya,30,female,Dance
-Grenville,18,male,Hiphop
-Sivaranjan ,19,male,Hiphop
-Sivaranjan,19,male,Classical
-Ajay Sharon,20,male,Hiphop
-Erin,19,male,Hiphop
-Abishek,13,male,Dance
-Mayank Sharma,19,male,Hiphop|Edm
-Athiyan ,19,male,Hiphop
-K.AACSHAYA ,18,female,Acoustic
-Thejasvini M,18,female,Jazz
-Harish,19,male,Classical
-Shiny,37,female,Classical
-Yogan G,18,male,Dance
-Varshini Rakesh,18,female,Jazz
-Neathan ,19,male,Acoustic
-Hisham,18,male,Hiphop|Pop rap
+age,gender,genre
+18,female,Soft Rock
+19,male,Dance
+69,trans,Acoustic,Barbie pop
+18,male,Hiphop|Pop rap
+42,male,Romance
+30,female,Dance
+16,female,Hiphop
+15,female,Dance
+52,female,Acoustic
+19,male,Jazz
+17,male,Classical
+17,male,Hiphop
+19,male,Foreskin tunes
+17,male,Pop
+18,female,Dance
+19,male,Melody 
+47,female,Classical
+18,male,Dance
+37,female,Classical
+19,male,Hiphop
+52,male,Classical
+13,male,Dance
+18,female,Hiphop
+12,male,Hiphop
+18,male,Hiphop
+19,male,Hiphop|Edm
+41,female,Classical
+19,male,Classical
+18,male,Acoustic
+18,female,Jazz
+18,male,Jazz
+18,female,Acoustic
+19,male,Acoustic
+20,male,Hiphop
+50,male,Hiphop
+20,male,Dance
+18,male,Acoustic|K-Pop
+69,male,Dance

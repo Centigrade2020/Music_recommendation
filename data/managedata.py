@@ -23,10 +23,13 @@ with open("rawdata.csv", 'r') as f:
             int(i[1])
         except ValueError:
             data_list.remove(i)
+    
+    for i in data_list:
+        del i[0]
 
 
 with open(fn, 'w') as f:
-    f.write("name,age,gender,genre\n")
+    f.write("age,gender,genre\n")
     li = []
     for i in data_list:
         string = ""
