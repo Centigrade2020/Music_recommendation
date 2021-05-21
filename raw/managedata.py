@@ -11,11 +11,9 @@ with open("rawdata.csv", 'r') as f:
     for i in lines:
         data_list.append(i.split(','))
 
-
     for i in data_list:
         if i[4].strip() != '':
             i[3] += " | "+i[4]
-        
         del i[4]
 
         try: 
