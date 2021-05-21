@@ -1,3 +1,6 @@
+import time
+from tqdm import tqdm
+
 output_filename = "data"
 output_format = "csv"
 
@@ -13,18 +16,18 @@ with open("rawdata.csv", 'r') as f:
 
     for i in data_list:
         print(i)
-        if i[4]!= '':
+        if i[4] != '':
             if i[3] != '':
                 i[3] += "|"+i[4]
             else:
                 i[3] = i[4]
         del i[4]
 
-        try: 
+        try:
             int(i[1])
         except ValueError:
             data_list.remove(i)
-    
+
     for i in data_list:
         del i[0]
 
@@ -34,8 +37,6 @@ with open("rawdata.csv", 'r') as f:
             i[1] = "1"
         elif i[1] == "trans":
             i[1] = "2"
-    
-    
 
 
 with open(fn, 'w') as f:
@@ -51,5 +52,7 @@ with open(fn, 'w') as f:
     for i in li:
         f.write(i+'\n')
 
+for _ in tqdm(range(100), desc="Loading ...", ascii=False, ncols=75):
+    time.sleep(0.01)
+
 print("Task completed successfully")
-        
