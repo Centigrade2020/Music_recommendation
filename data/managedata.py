@@ -12,7 +12,6 @@ with open("rawdata.csv", 'r') as f:
         data_list.append(i.split(','))
 
     for i in data_list:
-        print(i)
         if i[4]!= '':
             if i[3] != '':
                 i[3] += "|"+i[4]
