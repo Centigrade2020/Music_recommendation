@@ -13,7 +13,10 @@ with open("rawdata.csv", 'r') as f:
 
     for i in data_list:
         if i[4].strip() != '':
-            i[3] += " | "+i[4]
+            if i[3] != '':
+                i[3] += "|"+i[4]
+            else:
+                i[3] = i[4]
         del i[4]
 
         try: 
